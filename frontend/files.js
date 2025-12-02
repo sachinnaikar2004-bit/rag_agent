@@ -1,4 +1,4 @@
-const API_URL = "https://gemini-rag-assistant-bf5o.onrender.com";
+const API_URL = "https://rag-agent-mkvs.onrender.com";
 
 // DOM Elements
 const filesGrid = document.getElementById('files-grid');
@@ -171,6 +171,7 @@ async function deleteFile(fileId) {
         }
     }
 }
+
 
 
 
