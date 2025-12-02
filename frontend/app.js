@@ -1,4 +1,4 @@
-const API_URL = "https://gemini-rag-assistant-bf5o.onrender.com";
+const API_URL = "https://rag-agent-mkvs.onrender.com";
 
 // State
 let chatHistory = [];
@@ -485,6 +485,7 @@ function viewFile(fileName) {
         window.open(`${API_URL}/files/view/${encodeURIComponent(fileName)}`, '_blank');
     }
 }
+
 
 
 
